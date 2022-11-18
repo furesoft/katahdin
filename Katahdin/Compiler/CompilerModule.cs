@@ -13,11 +13,9 @@ namespace Katahdin.Compiler
         
         public CompilerModule()
         {
-            AppDomain domain = Thread.GetDomain();
-            
-            AssemblyBuilder assemblyBuilder = domain.DefineDynamicAssembly(
+            AssemblyBuilder assemblyBuilder = AssemblyBuilder.DefineDynamicAssembly(
                 new AssemblyName("runtime"),
-                AssemblyBuilderAccess.RunAndSave);
+                AssemblyBuilderAccess.Run);
             
             moduleBuilder = assemblyBuilder.DefineDynamicModule("runtime");
         }

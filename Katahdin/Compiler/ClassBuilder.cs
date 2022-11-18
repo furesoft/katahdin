@@ -127,7 +127,7 @@ namespace Katahdin.Compiler
             {
                 generator.LoadArg(0);
                 generator.LoadArg(n + 2);
-                generator.StoreField(typeBuilder.GetField(fields[n]));
+                //generator.StoreField(typeBuilder.GetField(fields[n]));
             }
             
             generator.Return();
@@ -217,7 +217,7 @@ namespace Katahdin.Compiler
             {
                 generator.LoadArg(0);
                 generator.Load(method);
-                generator.StoreField(typeBuilder.GetField(method.Name));
+                //generator.StoreField(typeBuilder.GetField(method.Name));
             }
         }
         

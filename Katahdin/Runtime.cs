@@ -310,7 +310,7 @@ namespace Katahdin
 	        if (assembly is AssemblyBuilder)
 	            return;
 	        
-	        foreach (Type type in assembly.GetExportedTypes())
+	        foreach (Type type in assembly.GetTypes())
 	        {
                 Module module = rootModule;
                 

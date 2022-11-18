@@ -16,9 +16,11 @@ class ListExpression : Expression
     {
         list = new List();
         
-        for (n = 0; n < this.items.Count; n++)
+        counter = 0;
+        while(counter < this.items.Count) {
             list.Add(this.items.get_Item(n).Get...());
-            //list.Add(this.items[n].Get...());
+            counter++;
+        }
         
         return list;
     }

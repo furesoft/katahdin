@@ -1,0 +1,15 @@
+/workspaces/katahdin/obj/Debug/net6.0/REPL.csproj.AssemblyReference.cache
+/workspaces/katahdin/obj/Debug/net6.0/REPL.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/katahdin/obj/Debug/net6.0/REPL.AssemblyInfoInputs.cache
+/workspaces/katahdin/obj/Debug/net6.0/REPL.AssemblyInfo.cs
+/workspaces/katahdin/obj/Debug/net6.0/REPL.csproj.CoreCompileInputs.cache
+/workspaces/katahdin/bin/Debug/net6.0/REPL
+/workspaces/katahdin/bin/Debug/net6.0/REPL.deps.json
+/workspaces/katahdin/bin/Debug/net6.0/REPL.runtimeconfig.json
+/workspaces/katahdin/bin/Debug/net6.0/REPL.dll
+/workspaces/katahdin/bin/Debug/net6.0/REPL.pdb
+/workspaces/katahdin/obj/Debug/net6.0/REPL.dll
+/workspaces/katahdin/obj/Debug/net6.0/refint/REPL.dll
+/workspaces/katahdin/obj/Debug/net6.0/REPL.pdb
+/workspaces/katahdin/obj/Debug/net6.0/REPL.genruntimeconfig.cache
+/workspaces/katahdin/obj/Debug/net6.0/ref/REPL.dll

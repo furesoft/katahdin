@@ -12,25 +12,23 @@ namespace Katahdin.Interpreter
             {
                 CommandLine commandLine = new CommandLine();
                 commandLine.AddOption("Verbose", false, "-verbose");
-                
+
                 commandLine.Parse(args);
-            
-                if ((bool) commandLine.GetOption("-h"))
+
+                if ((bool)commandLine.GetOption("-h"))
                 {
                     commandLine.Help("Katahdin Interpreter");
                     return;
                 }
-                
-                Runtime runtime = new Runtime(true, false, false, false,
-                    (bool) commandLine.GetOption("-verbose"));
-                
+
+                Runtime runtime = new(false, false, false, false, (bool)commandLine.GetOption("-verbose"));
+                runtime.PathResolver.PushDirectory("library");
                 //new ConsoleParseTrace(runtime);
-                
                 runtime.SetUp(commandLine.Args);
-                
-                if (!((bool) commandLine.GetOption("-nostd")))
+
+                if (!(bool)commandLine.GetOption("-nostd"))
                     runtime.ImportStandard();
-                
+
                 foreach (string file in commandLine.Files)
                     runtime.Import(file);
             }
@@ -46,7 +44,7 @@ namespace Katahdin.Interpreter
 
                     e = wrapper.InnerException;
                 }*/
-                
+
                 Console.Error.WriteLine(e);
             }
         }

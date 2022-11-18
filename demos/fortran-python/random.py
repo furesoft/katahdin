@@ -8,4 +8,4 @@ seed = 128
 
 for n in range(5):
     (seed, randx) = random(seed)
-    print randx
+    print(randx)

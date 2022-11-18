@@ -3,7 +3,6 @@ import "assert.kat";
 import "operators.kat";
 import "subscript.kat";
 
-import "for.kat";
 
 import "list.kat";
 import "dictionary.kat";

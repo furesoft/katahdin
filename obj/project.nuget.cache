@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "YpRafgd/A0R7b35tBWrMsu0C98UtjUhqfotcqppOs0UPC+c9elKx2KSW/ZKeG4hFe00ySUMN+71vf2JktlscSQ==",
+  "success": true,
+  "projectFilePath": "/workspaces/katahdin/REPL.csproj",
+  "expectedPackageFiles": [
+    "/home/codespace/.nuget/packages/system.reflection.emit/4.7.0/system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

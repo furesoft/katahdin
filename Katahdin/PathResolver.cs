@@ -46,7 +46,7 @@ namespace Katahdin
             
             for (int n = directories.Count - 1; n >= 0; n--)
             {
-                string resolved = Path.Combine(directories[n], path);
+                string resolved = Path.Combine(directories.ElementAt(n), path);
                 
                 if (File.Exists(resolved) || Directory.Exists(resolved))
                     return resolved;
